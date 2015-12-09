@@ -1,2 +1,3 @@
-# hello-world
-一个Hello,world页面
+# yuechemall + AngularJS
+
+这是使用AngularJS做的前段展示网站，前期使用JSON硬编码数据为后台，后期会使用轻量级PHP框架Slim Framework做为ResetFul API的开发
