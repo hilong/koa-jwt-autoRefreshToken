@@ -5,11 +5,11 @@
 		<label for="Low">输入品牌</label>
 	</div>
 	<ul class="list clearfix">
-		<li class="list_item" ng-repeat="car in Cars | filter:filterBrandy">
+		<li class="list_item" ng-repeat="car in Cars | filter:filterBrand">
 			<div class="list_wrap">
-				<a ng-href="#/{{car.carID}}" class="pic"><img src="/images/cars/demo01.jpg" alt=""></a>
+				<a ng-href="#/{{car.carID}}" class="pic"><img ng-src="{{car.carFeature}}" alt="{{car.carFeature}}"></a>
 				<div class="info">
-					<a ng-href="#"><span class="down">【直降{{car.carPriceLow}}万】</span>{{car.carBrand}} {{car.carType}} {{car.carYear}} {{car.carCc}}</a>
+					<a ng-href="#"><span class="down">【直降{{car.carPriceLow}}万】</span>{{car.carBrandZh}} {{car.carType}} {{car.carYear}} {{car.carCc}}</a>
 				</div>
 				<div class="price"><span class="guide">指导价：{{car.carPriceGuide}}万</span>特价：<span class="current">{{car.carPriceCurrent}}万</span></div>
 				<div class="sell">已售出：3辆</div>

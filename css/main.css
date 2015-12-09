@@ -527,13 +527,18 @@ h6 {
 	background: url(/images/icon_1.png) no-repeat;
 }
 .product_detail .buy_consult .note {
-	width: 75%;
-	margin: auto;
 	border: 1px solid #ddd;
 	padding: 1rem;
+	background-color: #f0f0f0;
 }
 .product_detail .buy_consult .consult {
 	margin: 0;
+	padding: 1rem;
+	line-height: 1.5;
+	border-bottom: 1px dashed #ddd;
+}
+.product_detail .buy_consult .consult_reply {
+	color: #ff0055;
 }
 .anchorscroll {
 	position: inherit;
