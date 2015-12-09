@@ -1,0 +1,115 @@
+.product_detail {}
+.product_detail .breadcrumbs a {
+	text-decoration: none;
+}
+.product_detail .breadcrumbs a:after {
+	display: inline;
+	content: '»';
+	color: #aaa;
+	margin: 0 0.25rem
+}
+.product_detail .breadcrumbs a:last-child:after {
+	display: none;
+}
+.product_detail .product_form input {
+	display: none;
+}
+.product_detail .product_form label {
+	position: relative;
+	display: inline-block;
+	min-width: 8rem;
+	text-align: center;
+	border: 1px solid #ddd;
+}
+.product_detail .product_form .tr_color label {
+	min-width: 2rem;
+	height: 1.875rem;
+	vertical-align: middle;
+}
+.product_detail .product_form input:checked ~ label {
+	border: 1px solid #ff0071;
+	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAYAAABWdVznAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN1wAADdcBQiibeAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAC6SURBVCiRldG7DgFRFIXhn8k8g0R0otLovAOtwSNMpRNR0SmISjT60akU9BqFSDyHQlyCIEtxEjFm3E63c76V7Av88USx9g9uCkeRXzGoAfA18Iy/Bl7xx0AYBoiG4rjb8uFsClYdSMZCcN0baneU8i0JR8pUpfVWkqT+VIE25M3M5/4kuQNpczC1N5OskvwYR7LL0mhu0PXmw487BAa0LVi2IZ2A8QIKXThfzJbebQPbgkoOepMHBrgD9i9+vteHZ18AAAAASUVORK5CYII=) no-repeat bottom right;
+}
+.product_detail .tr_title h2 {
+	margin: 0;
+	font-weight: 400;
+	line-height: 3rem;
+}
+.product_detail .tr_title img {
+	margin-right: 1rem;
+	vertical-align: middle;
+}
+.product_detail .tr_store .store {
+	text-align: center;
+	outline: none;
+	box-sizing: border-box;
+	border: 1px solid #ddd;
+	-webkit-appearance: inherit;
+}
+.product_detail .tr_store .store option {
+	padding: 0;
+}
+.product_detail .tr_price {}
+.product_detail .tr_price .current {
+	font-size: 1.25rem;
+	color: #f39229;
+}
+.product_detail .tr_price .low {
+	font-size: 1.25rem;
+	color: #f39229;
+}
+.product_detail .tr_price .small {
+	font-size: 0.75rem;
+}
+.product_detail .tr_price .guide {
+	font-size: 0.75rem;
+	text-decoration: line-through;
+}
+.product_detail .tr_submit .submit {
+	display: inline-block;
+	outline: none;
+	min-width: 8rem;
+	text-align: center;
+	font-size: 1rem;
+	border: 1px solid #ff0055;
+	padding: 0;
+	background-color: #ff0055;
+	color: #fff;
+}
+.product_detail .tr_submit .online_consult {
+	display: inline-block;
+	min-width: 8rem;
+	text-align: center;
+	font-size: 1rem;
+	border: 1px solid #454545;
+	color: #fff;
+	background-color: #454545;
+}
+.product_detail .tr_submit .service_tel {
+	font-size: 1rem;
+	color: #ff0055;
+}
+.product_detail .tr_price,
+.product_detail .tr_store,
+.product_detail .tr_color,
+.product_detail .tr_package,
+.product_detail .tr_insurance,
+.product_detail .tr_submit {
+	padding: 0.25rem 0;
+	line-height: 1.75rem;
+}
+.anchorscroll {
+	position: inherit;
+	top: 0;
+	line-height: 3rem;
+	background-color: #e8e8e8;
+}
+.anchorscroll a {
+	display: inline-block;
+	text-decoration: none;
+	padding: 0 0.75rem;
+}
+.anchor {
+	height: 500px;
+	border: 1px solid #ff0055;
+}

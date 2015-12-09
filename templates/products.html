@@ -1,0 +1,15 @@
+<div class="products">
+	<ul class="list clearfix">
+		<li class="list_item" ng-repeat="car in Cars">
+			<div class="list_wrap">
+				<a href="/products#/001" class="pic"><img src="/images/cars/demo01.jpg" alt=""></a>
+				<div class="info">
+					<a href="#"><span class="down">【直降{{car.carPriceLow}}万】</span>{{car.carBrand}} {{car.carType}} {{car.carYear}} {{car.carCc}}</a>
+				</div>
+				<div class="price"><span class="guide">指导价：{{car.carPriceGuide}}万</span>特价：<span class="current">{{car.carPriceCurrent}}万</span></div>
+				<div class="sell">已售出：3辆</div>
+				<div class="btn"><a href="#">立即购买</a></div>
+			</div>
+		</li>
+	</ul>
+</div>

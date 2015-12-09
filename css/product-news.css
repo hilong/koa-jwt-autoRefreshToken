@@ -1,0 +1,68 @@
+.products {
+	padding: 3rem 0;
+}
+.products ul.list {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.products ul.list li.list_item {
+	float: left;
+	width: 25%;
+	border: 1px solid #ddd;
+	box-sizing: border-box;
+	margin: -1px -1px 0 0;
+}
+.products ul.list li.list_item .list_wrap {
+	padding: 1.25rem 0.5rem;
+	border: 1px solid transparent;
+	background-color: #fff;
+}
+.products ul.list li.list_item:hover .list_wrap {
+	border-color: #ff0071;
+}
+.products .pic img {
+	vertical-align: middle;
+	max-width: 100%;
+}
+.products .info a {
+	text-decoration: none;
+	color: #454545;
+}
+.products .info a:hover {
+	color: #ff0071;
+}
+.products .info .down {
+	color: #ff0071;
+}
+.products .price .current {
+	font-size: 1rem;
+	font-weight: 700;
+	color: #ff0071;
+}
+.products .price .guide {
+	float: right;
+	color: #6c6c6c;
+	text-decoration: line-through;
+}
+.products .price,
+.products .sell {
+	color: #6c6c6c
+}
+.products .btn {
+	margin-top: 0.75rem;
+	text-align: center;
+}
+.products .info,
+.products .price {
+	padding: 0.5rem 0;
+}
+.products .btn a {
+	display: inline-block;
+	line-height: 2;
+	padding: 0 1rem;
+	text-decoration: none;
+	background-color: #ff7043;
+	color: #fff;
+	border-radius: 2px;
+}

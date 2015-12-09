@@ -1,0 +1,57 @@
+{
+
+    "contentItem": [
+
+
+        {
+
+            "contentID" : "1", 
+                            "contentVideo" : "file.mov",
+                            "contentThumbnail" : "url.jpg",
+                            "contentRating" : "5",
+            "contentTitle" : "Guitar Lessons",
+            "username" : "Username", "realname" : "Real name",
+            "contentTags" : [
+                { "tag" : "Guitar"},
+                { "tag" : "Intermediate"},
+                { "tag" : "Chords"}
+            ],      
+            "contentAbout" : "Learn how to play guitar!",
+            "contentTime" : [
+                { "" : "", "" : "", "" : "", "" : ""},
+                { "" : "", "" : "", "" : "", "" : ""}
+            ],          
+            "series" :[
+                { "seriesVideo" : "file.mov", "seriesThumbnail" : "url.jpg", "seriesTime" : "time", "seriesNumber" : "1", "seriesTitle" : "How to Play Guitar" },
+                { "videoFile" : "file.mov", "seriesThumbnail" : "url.jpg", "seriesTime" : "time", "seriesNumber" : "2", "seriesTitle" : "How to Play Guitar" }
+            ]
+        },
+
+
+        {
+
+            "contentID" : "2", 
+                            "contentVideo" : "file.mov",
+                            "contentThumbnail" : "url.jpg",
+                            "contentRating" : "5",
+            "contentTitle" : "Guitar Lessons",
+            "username" : "Username", "realname" : "Real name",
+            "contentTags" : [
+                { "tag" : "Guitar"},
+                { "tag" : "Intermediate"},
+                { "tag" : "Chords"}
+            ],      
+            "contentAbout" : "Learn how to play guitar!",
+            "contentTime" : [
+                { "" : "", "" : "", "" : "", "" : ""},
+                { "" : "", "" : "", "" : "", "" : ""}
+            ],          
+            "series" :[
+                { "seriesVideo" : "file.mov", "seriesThumbnail" : "url.jpg", "seriesTime" : "time", "seriesNumber" : "1", "seriesTitle" : "How to Play Guitar" },
+                { "videoFile" : "file.mov", "seriesThumbnail" : "url.jpg", "seriesTime" : "time", "seriesNumber" : "2", "seriesTitle" : "How to Play Guitar" }
+            ]
+        }
+
+    ]
+
+}

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<link href="/css/normalize.min.css" rel="stylesheet">
+	<link href="/css/main.css" rel="stylesheet">
+	<link href="/css/product-detail.css" rel="stylesheet">
+</head>
+
+<body ng-app="APP">
+	<div class="header" ng-include="'/templates/header.html'"></div>
+	<div class="main">
+		<div class="swrap">
+			<div class="product_detail">
+				<div class="breadcrumbs">
+					<a href="#">首页</a>
+					<a href="#">新车销售</a>
+					<a href="#">奥迪</a>
+				</div>
+				<div class="product_form">
+					<div class="rows">
+						<div class="col_2_4">
+							<div class="col_wrap thumbs">
+								<div class="thumb"><img src="/images/cars/details/demo_c1_黑色.jpg" alt=""></div>
+								<div class="colors">
+									<span><input id="color_1" name="color" type="radio" value="">
+								<label for="color_1" style="background-color:#555;"></label>
+								</span>
+									<span><input id="color_2" name="color" type="radio" value="">
+								<label for="color_2" style="background-color:#ff0;"></label></span>
+								</div>
+							</div>
+						</div>
+						<div class="col_2_6">
+							<div class="tr_title">
+								<h2><img src="/images/cars/brands_logo/奥迪.png">奥迪A3 2015款 1.4L </h2>
+							</div>
+							<div class="tr_price">
+								今日特价：
+								<span class="current">￥10.58万</span>
+								<span class="small modal">降价通知</span>
+								<span class="low">直降：1.2万</span>
+								<span class="guide">厂家指导价：11.78万</span>
+							</div>
+							<div class="tr_store">
+								选择店铺：
+								<select class="store">
+									<option>郑州东安沃尔沃4S店</option>
+									<option>郑州东佳大众4S店</option>
+								</select>
+								有货
+							</div>
+							<!--div class="tr_color">车身颜色：
+								<span><input id="color_1" name="color" type="radio" value="">
+								<label for="color_1" style="background-color:#555;"></label>
+								</span>
+								<span><input id="color_2" name="color" type="radio" value="">
+								<label for="color_2" style="background-color:#ff0;"></label></span>
+							</div-->
+							<div class="tr_package">选择套餐：
+								<span><input id="package_1" name="package" type="radio">
+								<label for="package_1">标配裸车</label></span>
+								<span><input id="package_2" name="package" type="radio">
+								<label for="package_2">标配裸车+上牌服务</label></span>
+							</div>
+							<div class="tr_insurance">办理保险：
+								<span><input id="insurance" name="insurance" type="checkbox">
+								<label for="insurance">办理保险</label></span>
+								<span>保险试算</span>
+							</div>
+							<div class="tr_submit">现在报名：
+								<button type="submit" class="submit">提交信息</button>
+								<span class="online_consult">在线咨询</span>
+								<span class="service_tel">客服电话：400-007-0897</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="rows">
+					<div class="col_2_7">
+						<div class="col_wrap product_description" ng-controller="AnchorScrollController">
+							<img class="img_response" src="/images/c_progress.png" alt="">
+							<h2 class="details_title"><span>车型介绍</span></h2>
+							<h4>外观</h4>
+							<img class="img_response" src="/images/cars/a4/waiGuan/wg1.jpg" alt="">
+							<img class="img_response" src="/images/cars/a4/waiGuan/wg2.jpg" alt="">
+							<img class="img_response" src="/images/cars/a4/waiGuan/wg3.jpg" alt="">
+							<img class="img_response" src="/images/cars/a4/waiGuan/wg4.jpg" alt="">
+							<h4>内饰</h4>
+							<img class="img_response" src="/images/cars/a4/neiShi/ns1.jpg" alt="">
+							<img class="img_response" src="/images/cars/a4/neiShi/ns2.jpg" alt="">
+							<img class="img_response" src="/images/cars/a4/neiShi/ns3.jpg" alt="">
+							<img class="img_response" src="/images/cars/a4/neiShi/ns4.jpg" alt="">
+						</div>
+					</div>
+					<div class="col_2_3">
+						<div class="col_wrap"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="footer" ng-include="'/templates/footer.html'"></div>
+	<script src="/js/lib/angular.min.js"></script>
+	<script src="/js/app.js"></script>
+	<script src="/js/services.js"></script>
+	<script src="/js/controllers.js"></script>
+</body>
+
+</html>
