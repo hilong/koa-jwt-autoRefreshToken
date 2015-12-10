@@ -31,11 +31,9 @@
 				</div>
 				<div class="tr_store">
 					选择店铺：
-					<select class="store">
-						<option>郑州东安沃尔沃4S店</option>
-						<option>郑州东佳大众4S店</option>
+					<select class="store" ng-model="Store" ng-options="Store.name for Store in store">
+						<option value>选择店铺</option>
 					</select>
-					有货
 				</div>
 				<div class="tr_package">选择套餐：
 					<span><input id="package_1" name="package" type="radio">

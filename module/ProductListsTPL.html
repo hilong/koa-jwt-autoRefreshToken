@@ -1,8 +1,15 @@
 <div class="products">
 	<h1>新车销售</h1>
-	<div class="filter">
-		<input id="filterBrand" type="text" ng-model="filterBrand">
-		<label for="Low">输入品牌</label>
+	<div class="filter rows">
+		<div class="col_4_1">
+			<input id="filterBrand" type="text" ng-model="filterBrand">
+			<label for="Low">选择品牌</label>
+			<datalist class=""></datalist>
+		</div>
+		<div class="col_4_1">
+			<input id="filterType" type="text" ng-model="filterType">
+			<label for="filterType">选择车型</label>
+		</div>
 	</div>
 	<ul class="list clearfix">
 		<li class="list_item" ng-repeat="car in Cars | filter:filterBrand">

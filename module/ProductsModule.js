@@ -11,6 +11,15 @@
 			});
 		}])
 		.factory('FactoryCars', ['$http', '$q', function ($http, $q) {
+			var Stores = [{
+				name: '店铺1'
+			}, {
+				name: '店铺2'
+			}, {
+				name: '店铺3'
+			}, {
+				name: '店铺4'
+			}];
 			return {
 				all: function () {
 					var deferred = $q.defer();
@@ -23,6 +32,9 @@
 						deferred.reject(data);
 					});
 					return deferred.promise;
+				},
+				store: function () {
+					return Stores;
 				}
 			};
 		}])
@@ -37,6 +49,7 @@
 			};
 		}])
 		.controller('DetailsController', ['$scope', '$routeParams', 'FactoryCars', '$anchorScroll', '$location', function ($scope, $routeParams, FactoryCars, $anchorScroll, $location) {
+			$scope.store = FactoryCars.store();
 			var id = $routeParams.carID,
 				promise = FactoryCars.all();
 			promise.then(function (data) {
