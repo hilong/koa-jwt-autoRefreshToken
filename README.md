@@ -1,3 +1,1 @@
-# yuechemall + AngularJS
-
-这是使用AngularJS做的前段展示网站，前期使用JSON硬编码数据为后台，后期会使用轻量级PHP框架Slim Framework做为ResetFul API的开发
+# 很久没更新github了，一直忙于工作，现在在使用angular 4，抽空在github上使用angular 4 搭建个博客，也把博客永远迁移到github
