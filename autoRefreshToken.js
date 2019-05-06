@@ -1,6 +1,7 @@
 'use strict';
 /**
  * 自动刷新Token中间件，在token失效前60秒内的请求添加上新的token
+ * isAuto 默认true,time 默认60秒，此参数可配置
  */
 const JWT = require('jsonwebtoken');//引入jsonwebtoken
 const MSConfig = {
